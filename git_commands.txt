@@ -1,0 +1,8 @@
+git init
+git lfs install
+git lfs track "*.exe" "*.dll" "*.dat" "*.bin" "*.pak" "*.html"
+git remote add origin https://github.com/dibyasundar65/fileShareApp.git
+git add .
+git commit -m "Add refresh button with spin animation"
+git branch -M main
+git push -u origin main --force
