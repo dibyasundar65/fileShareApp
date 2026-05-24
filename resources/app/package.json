@@ -1,0 +1,26 @@
+{
+  "name": "foldersharing",
+  "version": "1.0.0",
+  "description": "Local network file sharing and chat webpage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "node package-app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "express": "^5.2.1",
+    "mime-types": "^3.0.2",
+    "multer": "^2.1.1",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "electron": "^42.2.0",
+    "electron-packager": "^17.1.2",
+    "pkg": "^5.8.1"
+  }
+}
